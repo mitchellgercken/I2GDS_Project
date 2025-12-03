@@ -1,2 +1,22 @@
-# I2GDS_Project
-Individual Final Project
+# Background
+Something about the importance of metagenomics and mNGS, how it has provided opportunities towards identifying new viruses present in plants. **(Use abstracts/what has already been written for more explanation). Keep it to a brief background, the importance lies in the code.**
+
+# Project Overview
+The overall goal of this project is to determine if Life Identification Numbers (LINs) can provide the framework to build a viral Kraken2 database that improves plant virus classification of plant metagenomes when compared to publically available databases.
+
+# Overall Method
+Include one of the many figures of the overall process, maybe avoid explaining LINs to keep it simple **(Figure from the individual project outline presentation).**
+
+# Viral Reference Collection
+NCBI Virus/NCBI Datasets API, go over the general process required to collect the sequences. Complete and partially complete genomes since those results look the best and I need to build the trees anyways. (Only use the three samples I showed during the research update lab meeting).
+
+# Kraken2 Database Building
+Best to mention contaminated sequences (mention the process of using BLAST to remove any sequence that contains plant DNA).
+
+# Sankey plot comparison between custom database and publically available
+
+# Extracting abundant virus, assembly, and IQtree
+
+# Bootstrap tree generation with RStudio ggtree
+
+# All used code needs to have comments explaining what is going on.
