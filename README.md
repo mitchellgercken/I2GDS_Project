@@ -7,6 +7,8 @@ The overall goal of this project is to determine if Life Identification Numbers 
 # Overall Method
 Include one of the many figures of the overall process, maybe avoid explaining LINs to keep it simple **(Figure from the individual project outline presentation).**
 
+<img width="590" height="431" alt="Screenshot 2025-12-04 at 10 38 54 AM" src="https://github.com/user-attachments/assets/2a364d99-1941-484e-9d98-1d9b585123ba" />
+
 # Viral Reference Collection
 NCBI Virus/NCBI Datasets API, go over the general process required to collect the sequences. Complete and partially complete genomes since those results look the best and I need to build the trees anyways. (Only use the three samples I showed during the research update lab meeting).
 
