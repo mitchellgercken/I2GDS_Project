@@ -1,7 +1,7 @@
 # Project Overview
 The goal of this project is to build a custom viral Kraken2 database that is capable of identifying plant viruses present in plant metagenomic data. When compared to a publically avaiable viral Kraken2 database. 
 
-In order to achieve this goal, the project follows the process incorporating both Linux and R methods to generate Sankey plots and Phylogenetic trees on samples obtained from the Virginia Tech Plant Disease Clinic:
+In order to achieve this goal, the project follows the process incorporating both Linux and R methods to generate Sankey plots and Phylogenetic trees for samples obtained from the Virginia Tech Plant Disease Clinic:
 <img width="590" height="431" alt="Screenshot 2025-12-04 at 10 38 54 AM" src="https://github.com/user-attachments/assets/2a364d99-1941-484e-9d98-1d9b585123ba" />
  
 
