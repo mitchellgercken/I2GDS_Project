@@ -1,10 +1,4 @@
-# Background
-Something about the importance of metagenomics and mNGS, how it has provided opportunities towards identifying new viruses present in plants. **(Use abstracts/what has already been written for more explanation). Keep it to a brief background, the importance lies in the code.**
-
 # Project Overview
-The overall goal of this project is to determine if Life Identification Numbers (LINs) can provide the framework to build a viral Kraken2 database that improves plant virus classification of plant metagenomes when compared to publically available databases.
-
-# Overall Method
 The goal of this project is to build a custom viral Kraken2 database that is capable of identifying plant viruses present in plant metagenomic data. When compared to a publically avaiable viral Kraken2 database. 
 
 In order to achieve this goal, the project follows the process incorporating both Linux and R methods to generate Sankey plots and Phylogenetic trees on samples obtained from the Virginia Tech Plant Disease Clinic:
