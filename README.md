@@ -68,6 +68,8 @@ Sankey plots were generated from the Kraken2 report file from the Kraken2 classi
 **It is important to note all R script was run in RStudio and was not tested on VT ARC**
 The R script below goes through the process of generating a phylogenetic tree visualization of an IQtree consensus tree with 1000 tree replicates. The tree is generated with ggtree and dyprl primarily. The script takes an input tree file, input metadata on the sample of interest (includes geographic location, host organism, virus name, etc.), and a taxonomic lineage file for all viral species used in the Kraken 2 custom database. The metadata and taxonomic lineage file were generated with the NCBI Datasets Conda package (Not shown in the scripts). Tree generation is used as a validation step to ensure Kraken2 was correct with the classification. The resulting tree for sample 24_557 is shown below:
 
+**R Inputs are located: /projects/intro2gds/I2GDS2025/G4_Viruses/mitchell/individual_project/inputs**
+
 <details>
   <summary>Click to expand code</summary>
   
