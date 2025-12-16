@@ -46,6 +46,10 @@ The linux script below goes through the steps of classifying the mNGS data with 
 ```
 </details>
 
+**To run script (in repository directory)**
+```
+sbatch scripts/linux_script.sh
+```
 # Sankey Plot Comparison
 Sankey plots were generated from the Kraken2 report file from the Kraken2 classification command ran in the Linux script (this process is done manually outside of the linux script, as user verification that Kraken2 worked correctly prior to running MAFFT and IQtree). The sankey plots were created using the Pavian Shiny App Webinterface ([https://fbreitwieser.shinyapps.io/pavian/)](https://fbreitwieser.shinyapps.io/pavian/). The sankey plots from the Kraken2 custom database and the Kraken2 viral RefSeq databases are shown below for sample 24_557:
 
