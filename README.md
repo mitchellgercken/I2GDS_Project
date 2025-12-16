@@ -38,6 +38,7 @@ cd repository
 
 # Linux Script
 The linux script below goes through the steps of classifying the mNGS data with the custom Kraken2 database (Standard viral database classification not shown). Moving into extracting the reads from the mNGS samples of the top 3 most abundant viruses (this step ensures the inclusion of dual infection if present). Lastly, the script run SPAdes to assemble all the reads from the top 3 most abundant viruses for each sample (if SPAdes assembly fails for one sample/taxid it will continue the loop; an issue I kept running into). The script does not show the process of running MAFFT on the assembled contigs and a IQtree using the reference sequences belonging to the same species as the virus detected in each sample. The resulting tree file, sample metadata, and taxonomic lineage files are used in the R script.
+
 <details>
   <summary>Click to expand code</summary>
   
@@ -50,6 +51,8 @@ The linux script below goes through the steps of classifying the mNGS data with 
 ```
 sbatch scripts/linux_script.sh
 ```
+**Expected outputs located in: /projects/intro2gds/I2GDS2025/G4_Viruses/mitchell/individual_project/expected_outputs**
+
 # Sankey Plot Comparison
 Sankey plots were generated from the Kraken2 report file from the Kraken2 classification command ran in the Linux script (this process is done manually outside of the linux script, as user verification that Kraken2 worked correctly prior to running MAFFT and IQtree). The sankey plots were created using the Pavian Shiny App Webinterface ([https://fbreitwieser.shinyapps.io/pavian/)](https://fbreitwieser.shinyapps.io/pavian/). The sankey plots from the Kraken2 custom database and the Kraken2 viral RefSeq databases are shown below for sample 24_557:
 
