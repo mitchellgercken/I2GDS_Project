@@ -9,7 +9,7 @@
 #SBATCH --output=full_pipeline_%j.out
 
 #cd to directory (NEEDS TO CHANGE)
-cd /projects/intro2gds/I2GDS2025/G4_Viruses/mitchell/individual_project/
+cd /PATH/TO/REPOSITORY/DIRECTORY
 
 #Set Conda Environment
 module load Miniconda3
