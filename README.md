@@ -39,9 +39,11 @@ Create the conda environment:
 Sankey plots were generated from the Kraken2 report file from the Kraken2 classification command ran in the Linux script (this process is done manually outside of the linux script). The sankey plots were created using the Pavian Shiny App Webinterface ([https://fbreitwieser.shinyapps.io/pavian/)](https://fbreitwieser.shinyapps.io/pavian/). The sankey plots from the Kraken2 custom database and the Kraken2 viral RefSeq databases are shown below for sample 24_557:
 
 **Viral RefSeq Database**
+
 <img width="722" height="381" alt="Screenshot 2025-12-16 at 12 24 43 PM" src="https://github.com/user-attachments/assets/f1a5c9e3-cbd9-4822-a18a-0e07a58b0639" />
 
 **Custom Database**
+
 <img width="722" height="381" alt="Screenshot 2025-12-16 at 12 25 11 PM" src="https://github.com/user-attachments/assets/835fec54-7f21-4539-99c0-697583cb8e40" />
 
 # R Script
