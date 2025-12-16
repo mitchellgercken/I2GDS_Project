@@ -188,6 +188,8 @@ print(plots[[1]])
 ```
 </details>
 
+<img width="1162" height="725" alt="Screenshot 2025-12-16 at 1 05 58 PM" src="https://github.com/user-attachments/assets/4fe2a532-7a07-4919-90d9-726430ad85a5" />
+
 # Results
 Using information from both the sankey plots generated using both databases as well as the tree generated for the same sample. The sankey plot from the custom database indicates that Kraken2 has less false positives when ran with a database requiring a few more steps of refinement than compared to the standard viral database. The sankey plot of the custom database does not have the occurrance of the *Orthotospovirus capsicimaculaflavi* virus, which when a SPAdes assembly was ran on the resulting reads, a contig of 500bp revealed by BLAST as plant chloroplast results. This major difference between the two databases reinforced the plant contamination step taken prior to building the custom Kraken2 viral database. The standard viral database includes a contaminated RefSeq genome that continuously resulted in a large false positive. This negatively impacted the use of mNGS data for viral plant identification, which is resolved with the use of the custom Kraken2 database used in this pipeline. The tree visualization from R validates that Kraken2 made a correct classification when identifying both Chrysanthemum virus B and Chrysanthemum virus R in sample 24_557. The classification done with the custom database is also a lot more clear as to what is primarily present in the sample when compared to the standard viral database.
 
