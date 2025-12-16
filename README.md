@@ -12,6 +12,7 @@ NCBI Virus/NCBI Datasets API, go over the general process required to collect th
 Best to mention contaminated sequences (mention the process of using BLAST to remove any sequence that contains plant DNA).
 
 # Conda Environment Setup
+Create the conda environment:
 ```
   module load Miniconda3
   conda env create -f environment.yml -n indiv_prod_mg
