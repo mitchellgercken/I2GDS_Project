@@ -11,10 +11,14 @@ NCBI Virus/NCBI Datasets API, go over the general process required to collect th
 # Kraken2 Database Building
 Best to mention contaminated sequences (mention the process of using BLAST to remove any sequence that contains plant DNA).
 
+# Conda Environment Setup
+```
+  module load Miniconda3
+  conda env create -f environment.yml -n indiv_prod_mg
+```
+
 # Sankey plot comparison between custom database and publically available
 
 # Extracting abundant virus, assembly, and IQtree
 
 # Bootstrap tree generation with RStudio ggtree
-
-# All used code needs to have comments explaining what is going on.
