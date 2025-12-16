@@ -26,6 +26,16 @@ Create the conda environment:
   conda env create -f environment.yml -n indiv_prod_mg
 ```
 
+# Download Repository
+```
+git clone --no-checkout https://github.com/mitchellgercken/I2GDS_Project/
+cd I2GDS_Project/
+git sparse-checkout init --cone
+git sparse-checkout set repository
+git checkout
+cd repository
+```
+
 # Linux Script
 The linux script below goes through the steps of classifying the mNGS data with the custom Kraken2 database (Standard viral database classification not shown). Moving into extracting the reads from the mNGS samples of the top 3 most abundant viruses (this step ensures the inclusion of dual infection if present). Lastly, the script run SPAdes to assemble all the reads from the top 3 most abundant viruses for each sample (if SPAdes assembly fails for one sample/taxid it will continue the loop; an issue I kept running into). The script does not show the process of running MAFFT on the assembled contigs and a IQtree using the reference sequences belonging to the same species as the virus detected in each sample. The resulting tree file, sample metadata, and taxonomic lineage files are used in the R script.
 <details>
